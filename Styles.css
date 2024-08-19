@@ -1,16 +1,40 @@
 @font-face {
-    font-family: ;"Anek Kannada"
-    src: url("fonts/Anek-Kannada");
-} {font}
+  font-family: "Anek-Kannada";
+  src: url("./Fonts/AnekKannada-variablefont.ttf");
+  src: local('/Fonts/AnekKannada-variablefont.ttf');
+}
+
+p, .Contactandinsta, .footer, .tour {
+  font-family: sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 100;
+}
 
 .body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-image: src("/images/Background 4 (Repeats).png");
-      }
+  background: rgb(7,0,36);
+  background: linear-gradient(90deg, rgba(7,0,36,0.7236081932773109) 0%, rgba(7,119,158,1) 58%, rgba(98,8,140,1) 66%, rgba(0,212,255,1) 100%);
+  display: flex;
+  flex-direction: column;
+ }
+
+
+ul {list-style: none;
+text-decoration: none;
+font-family: sans-serif;}
+
+a{ text-decoration: none;
+color:rgba(30, 33, 33, 0.911)}
 
 
 
+a:hover {color:beige;
+transition: 0.5s;}
 
+.musiclinks {
+    height: auto;
+    width: auto;
+    border-radius: 80%;
+}
 
 
 
