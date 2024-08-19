@@ -10,45 +10,79 @@ p, .Contactandinsta, .footer, .tour {
   font-weight: 100;
 }
 
-.body {
+body {
   background: rgb(7,0,36);
-  background: linear-gradient(90deg, rgba(7,0,36,0.7236081932773109) 0%, rgba(7,119,158,1) 58%, rgba(98,8,140,1) 66%, rgba(0,212,255,1) 100%);
+  background: linear-gradient(90deg, rgba(51, 34, 122, 0.724) 0%, rgb(39, 138, 170) 58%, rgb(157, 90, 188) 66%, rgba(0,212,255,1) 100%);
+  background-size: cover;
+  background-repeat: repeat;
   display: flex;
   flex-direction: column;
  }
 
 
+
 ul {list-style: none;
 text-decoration: none;
-font-family: sans-serif;}
+font-family: sans-serif;
+display: flex;
+flex-direction: row;}
 
 a{ text-decoration: none;
 color:rgba(30, 33, 33, 0.911)}
 
 
-
 a:hover {color:beige;
 transition: 0.5s;}
+
+.header {
+  background-color: cornflowerblue;
+  background-size: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;}
+
+.headermenu {display: flex;
+flex-direction: row;
+margin-right: 20px;}
+
+p {margin: 10px;
+padding-top: 30px;}
 
 .musiclinks {
     height: auto;
     width: auto;
     border-radius: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    
 }
 
+.musicvideos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
 
 
 
 /* Mailing List Stuff */
 /* Style the form element with a border around it */
-form {
-    border: 4px solid #f1f1f1;
-  }
-  
+
   /* Add some padding and a grey background color to containers */
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+
   .mailinglist {
     padding: 20px;
     background-color: #f1f1f1;
+    width:30%;
+    text-align: center;
+    font-family: sans-serif;
   }
   
   /* Style the input elements and the submit button */
@@ -64,15 +98,19 @@ form {
   /* Add margins to the checkbox */
   input[type=checkbox] {
     margin-top: 16px;
+    
   }
   
   /* Style the submit button */
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #5d6ae3;
     color: white;
     border: none;
+    margin-right: auto;
+    margin-left: auto;
   }
   
   input[type=submit]:hover {
     opacity: 0.8;
+    transition: 0.5s;
   }
