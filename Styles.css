@@ -39,7 +39,9 @@ transition: 0.5s;}
   background-size: auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;}
+  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;}
 
 .headermenu {display: flex;
 flex-direction: row;
@@ -54,7 +56,11 @@ padding-top: 30px;}
     border-radius: 80%;
     display: flex;
     justify-content: space-evenly;
-    
+}
+
+.link:hover {
+  opacity: 0.8;
+  transition: 0.5s;
 }
 
 .musicvideos {
@@ -62,7 +68,11 @@ padding-top: 30px;}
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 10px;
+  margin: 10px;
+  background: linear-gradient(90deg, rgba(56, 41, 114, 0.724) 0%, rgb(49, 139, 169) 58%, rgb(185, 112, 219) 66%, rgba(0,212,255,1) 100%); 
+  box-sizing: border-box;
+  flex-shrink: 1;
+  width: fit-content;
 }
 
 
@@ -113,4 +123,11 @@ padding-top: 30px;}
   input[type=submit]:hover {
     opacity: 0.8;
     transition: 0.5s;
+  }
+
+  .footer {
+    background-color: #5d6ae3;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
   }
