@@ -10,7 +10,7 @@ p, .Contactandinsta, .footer, .tour {
   font-weight: 100;
 }
 
-body {
+body, html {
   background: rgb(7,0,36);
   background: linear-gradient(90deg, rgba(51, 34, 122, 0.724) 0%, rgb(39, 138, 170) 58%, rgb(157, 90, 188) 66%, rgba(0,212,255,1) 100%);
   background-size: cover;
@@ -159,6 +159,7 @@ opacity: 0.9;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding: 30px;
 }
 
 .tour {
