@@ -263,3 +263,50 @@ opacity: 0.9;
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
     flex-shrink: 0;
   }
+
+  /* Slide Down Listen Now Box */
+
+  .ListenNowBox {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    opacity: 0.8;
+    display: block;
+    width: 150%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .ListenNowBox:hover .image {
+    opacity: 0.3;
+  }
+  
+  .ListenNowBox:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #9250d8;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 4px 8px;
+    display: flex;
+    justify-content: center;
+  }
+
+  p2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
