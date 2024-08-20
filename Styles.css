@@ -287,7 +287,9 @@ opacity: 0.9;
     top: 50%;
     left: 70%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
+    -ms-transform: translate(-50%, -50%);
+    display: block;
+    align-items: center;
   }
   
   .ListenNowBox:hover .image {
@@ -303,8 +305,10 @@ opacity: 0.9;
     color: rgb(0, 0, 0);
     font-size: 16px;
     padding: 4px 8px;
-    display: flex;
-    justify-content: center;
+    display: block;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   p2 {
