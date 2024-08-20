@@ -97,6 +97,8 @@ padding-top: 30px;}
   box-sizing: border-box;
   flex-shrink: 1;
   width: fit-content;
+  padding: 30px;
+  gap: 30px;
 }
 
 
@@ -208,6 +210,7 @@ opacity: 0.9;}
     align-items: center;
     justify-content: center;
     padding-top: 20px;
+    gap: 30px;
   }
 
   .wurkzalbum, .headerimage, .performanceimages, .about {
